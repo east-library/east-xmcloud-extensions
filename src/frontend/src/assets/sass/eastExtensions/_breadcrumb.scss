@@ -1,0 +1,26 @@
+.breadcrumb {
+  background-color: #359bfa;
+  padding: 8px;
+  .component-content {
+    width: 100%;
+    ul {
+      display: flex;
+      margin: 0;
+      padding: 0;
+      .item {
+        list-style: none;
+        color: white;
+        a {
+          text-decoration: none;
+          color: white;
+        }
+        a:hover {
+          text-decoration: underline;
+        }
+        span {
+          margin: 0 8px;
+        }
+      }
+    }
+  }
+}
