@@ -35,7 +35,6 @@ type PickUpProps = {
 };
 
 type ComponentContentProps = {
-  id: string;
   pageState: string | undefined;
   url: string;
   children: JSX.Element;
@@ -43,7 +42,7 @@ type ComponentContentProps = {
 
 const PickUpItem = (props: ComponentContentProps): JSX.Element => {
   return (
-    <li key={props.id} className="item">
+    <li className="item">
       {props.pageState !== 'edit' ? (
         <Link href={props.url}>{props.children}</Link>
       ) : (
@@ -66,7 +65,7 @@ export const Default = (props: PickUpProps): JSX.Element => {
         <ul>
           {props.fields.PickUpItem.map((item) => {
             return (
-              <PickUpItem id={item.id} pageState={sitecoreContext.pageState} url={item.url}>
+              <PickUpItem key={item.id} pageState={sitecoreContext.pageState} url={item.url}>
                 <>
                   <div className="item-content-first">
                     <JssImage field={item.fields.Thumbnail} />
