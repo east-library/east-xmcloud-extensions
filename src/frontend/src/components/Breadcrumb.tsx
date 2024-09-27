@@ -24,7 +24,6 @@ type BreadcrumbProps = {
 };
 
 type ComponentContentProps = {
-  id: string;
   pageState: string | undefined;
   url: string;
   children: JSX.Element;
@@ -40,7 +39,7 @@ const BreadcrumbDefaultComponent = (props: BreadcrumbProps): JSX.Element => (
 
 const BreadcrumbItem = (props: ComponentContentProps): JSX.Element => {
   return (
-    <li key={props.id} className="item">
+    <li className="item">
       {props.pageState !== 'edit' ? (
         <Link href={props.url}>{props.children}</Link>
       ) : (
@@ -70,7 +69,7 @@ export const Default = (props: BreadcrumbProps): JSX.Element => {
 
     return (
       <BreadcrumbItem
-        id={ancestor.id}
+        key={ancestor.id}
         pageState={sitecoreContext.pageState}
         url={ancestor.url.path}
       >
