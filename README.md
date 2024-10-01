@@ -77,7 +77,7 @@ Please help us improve the components.
 - Nagata(永田)
   - Affiliation: EAST Co.,Ltd.
 
-## ライセンス
+## License
 
 This repository is released under the MIT License. For more information, see [LICENSE file](LICENSE).
 
