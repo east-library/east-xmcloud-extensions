@@ -6,7 +6,6 @@
 
 This repository provides components created independently using Sitecore XM Cloud's JSS.\
 You can use it as is or modify it to suit your own project.\
-The latest version of this repository is **1.0.0**
 
 ## Precautions for use
 
