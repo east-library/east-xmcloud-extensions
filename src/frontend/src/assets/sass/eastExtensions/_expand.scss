@@ -1,0 +1,51 @@
+.expand {
+  .component-content {
+    .expand-header {
+      width: 80%;
+      margin: 0 auto;
+      text-align: center;
+    }
+    ul {
+      padding: 16px;
+      margin: 0;
+      .item {
+        list-style: none;
+        padding-bottom: 16px;
+        border-bottom: 1px solid gray;
+        .item-first {
+          padding: 8px;
+          display: flex;
+          align-items: center;
+          min-height: 90px;
+          justify-content: space-between;
+          .item-first-content {
+            max-width: calc(100% - 40px);
+          }
+          .expand-button {
+            width: 20px;
+            height: 20px;
+            border-left: 2px solid black;
+            border-bottom: 2px solid black;
+            box-sizing: border-box;
+            transform: rotate(-45deg);
+            transition: 0.5s;
+            &.expanded {
+              transform: rotate(-225deg);
+            }
+          }
+        }
+        .item-second {
+          padding: 0 8px;
+          background-color: lightgray;
+          max-height: 0px;
+          overflow: hidden;
+          transition: 0.5s;
+          &.expanded {
+            padding: 8px;
+            max-height: 400px;
+          }
+        }
+      }
+    }
+  }
+}
