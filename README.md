@@ -1,11 +1,11 @@
 # Sitecore XM Cloud Extension Components
 
-[日本語版 README](README_ja-JP.md)
+:flag_japan:[日本語版 README](README_ja-JP.md)
 
 ## Overview
 
 This repository provides components created independently using Sitecore XM Cloud's JSS.\
-You can use it as is or modify it to suit your own project.\
+You can use it as is or modify it to suit your own project.
 
 ## Precautions for use
 
@@ -20,7 +20,7 @@ On the right is the version of JSS that was tested with those components.
 
 | Components Version | JSS Version |
 | ------------------ | ----------- |
-| 1.0.0 - 1.0.1      | 22.0.0      |
+| 1.0.0 - 1.1.0      | 22.0.0      |
 
 ## Components Overview
 
@@ -32,6 +32,8 @@ Currently, this repository has the following components.
   - Display the image in full width and place rich text and link over it
 - [PickUp](docs/PickUp_component.md)
   - Select one or more pages of the site and view their thumbnails and summaries side by side
+- [Expand](docs/Expand_component.md)
+  - A component that can expand/store rich text
 
 ## Installation (common to all components)
 
