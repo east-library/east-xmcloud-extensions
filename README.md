@@ -1,6 +1,6 @@
 # Sitecore XM Cloud Extension Components
 
-:flag_japan:[日本語版 README](README_ja-JP.md)
+[日本語版 README](README_ja-JP.md)
 
 ## Overview
 
