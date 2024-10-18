@@ -1,5 +1,7 @@
 # Expand component
 
+![Expand component](/docs/images/Expand.png)
+
 ## 概要
 
 Expand コンポーネントは、常に表示される見出しのリッチテキストと、ボタンをクリックして展開/格納できるリッチテキストを 1 セットにして表示します。\
@@ -21,3 +23,4 @@ Expand コンポーネントは、常に表示される見出しのリッチテ�
 1. 子アイテムのリッチテキストを編集します
    - 2 つ目のリッチテキストは格納されているので、右端の ∨ を押して展開してください
 1. 必要に応じて、右ペインの Manage items から子アイテムを追加してください
+   ![Expand component config](/docs/images/Expand_config.png)

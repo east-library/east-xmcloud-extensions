@@ -1,5 +1,7 @@
 # PickUp component
 
+![PickUp component](/docs/images/PickUp.png)
+
 ## Overview
 
 This component selects one or more of the site's pages and displays them side by side.\
@@ -20,6 +22,7 @@ It is suitable for displaying recommended and related article pages side by side
 1. Create a PickUp item in the Data folder of the page or site
 1. Set heading and link
 1. Open the PickUp item in the Content Editor, select the pages you want to view and save it
+   ![PickUp component config](/docs/images/PickUp_config.png)
 
 ### About News Page Template
 

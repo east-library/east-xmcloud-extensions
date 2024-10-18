@@ -1,5 +1,7 @@
 # Expand component
 
+![Expand component](/docs/images/Expand.png)
+
 ## Overview
 
 The Expand component displays one set of rich text for headings that is always visible and another set of rich text that can be expanded/stored with the click of a button.\
@@ -21,3 +23,4 @@ It is best suited for situations such as the frequently asked question, where tw
 1. Edit the rich texts of the children items
    - The second rich text is stored, press `∨` on the far right to expand it
 1. If necessary, add child items from Manage items in the right pane
+   ![Expand component config](/docs/images/Expand_config.png)

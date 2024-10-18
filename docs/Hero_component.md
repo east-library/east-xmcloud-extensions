@@ -1,5 +1,7 @@
 # Hero component
 
+![Hero component](/docs/images/Hero.png)
+
 ## Overview
 
 This component displays the image in full width.\
@@ -15,13 +17,14 @@ Rich text and link are positioned in percentages, respectively.\
 
 ### Basis
 
-1. Drag and drop the Hero component in Pages to place it
+1. Drag and drop the Hero component in Page builder to place it
 1. Set image, rich text, and link
 1. Adjust the position of rich text and link in the right pane
 
 ### Rich text and link positioning
 
-- You can adjust the position of rich text and link individually from **Advanced styling** in the right pane of Pages
+- You can adjust the position of rich text and link individually from **Advanced styling** in the right pane of Page builder
+  ![Hero component config](/docs//images//Hero_config.png)
 - Adjust from 0~100% with the upper left corner as the reference.
 - Parameters are as follows
   - **Text Vertical Position**:Adjust the vertical position of rich text

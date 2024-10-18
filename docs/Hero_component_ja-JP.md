@@ -1,5 +1,7 @@
 # Hero component
 
+![Hero component](/docs/images/Hero.png)
+
 ## 概要
 
 このコンポーネントは、横幅いっぱいに画像を表示します。\
@@ -15,13 +17,14 @@
 
 ### 基本
 
-1. Pages で Hero コンポーネントをドラッグアンドドロップして配置します
+1. Page builder で Hero コンポーネントをドラッグアンドドロップして配置します
 1. 画像、リッチテキスト、リンクを設定します
 1. 右ペインでリッチテキストとリンクの位置を調節します
 
 ### リッチテキストとリンクの位置調整
 
-- Pages の右ペインの Advanced styling から、リッチテキストとリンクの位置を個別に調整することができます
+- Page builder の右ペインの Advanced styling から、リッチテキストとリンクの位置を個別に調整することができます
+  ![Hero component config](/docs//images//Hero_config.png)
 - 左上を基準として 0~100%で調節します
 - パラメータは以下の通りです
   - Text Vertical Position:リッチテキストの上下の位置を調節します

@@ -1,6 +1,8 @@
-# Sitecore XM Cloud Extension Components
+# East XMCloud Extensions
 
-[日本語版 README](README_ja-JP.md)
+![components image](/docs//images/Top_image.gif)
+
+:japan:[日本語版 README](README_ja-JP.md)
 
 ## Overview
 
