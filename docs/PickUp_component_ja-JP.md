@@ -1,5 +1,7 @@
 # PickUp component
 
+![PickUp component](/docs/images/PickUp.png)
+
 ## 概要
 
 このコンポーネントは、サイトのページを 1 つ以上選択して、それらを並べて表示します。\
@@ -20,6 +22,7 @@
 1. ページまたはサイトの Data フォルダに PickUp アイテムを作成します
 1. 見出し、リンクを設定します
 1. コンテンツ エディタで PickUp アイテムを開き、表示したいページを選択して保存します
+   ![PickUp component config](/docs/images/PickUp_config.png)
 
 ### News Page テンプレートについて
 

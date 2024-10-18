@@ -1,4 +1,6 @@
-# Sitecore XM Cloud 拡張コンポーネント
+# East XMCloud Extensions
+
+![components image](/docs//images/Top_image.gif)
 
 ## 概要
 

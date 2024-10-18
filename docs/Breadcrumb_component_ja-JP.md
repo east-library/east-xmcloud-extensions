@@ -1,5 +1,7 @@
 # Breadcrumb component
 
+![Breadcrumb component](/docs/images/Breadcrumb.png)
+
 ## 概要
 
 このコンポーネントは、現在のページから Home までの階層を表示します。

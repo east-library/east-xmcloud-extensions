@@ -1,5 +1,7 @@
 # Breadcrumb component
 
+![Breadcrumb component](/docs/images/Breadcrumb.png)
+
 ## Overview
 
 This component displays the hierarchy from the current page to Home.
