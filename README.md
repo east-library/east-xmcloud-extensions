@@ -22,7 +22,7 @@ On the right is the version of JSS that was tested with those components.
 
 | Components Version | JSS Version |
 | ------------------ | ----------- |
-| 1.0.0 - 1.1.0      | 22.0.0      |
+| 1.0.0 - 1.2.0      | 22.0.0      |
 
 ## Components Overview
 
@@ -35,7 +35,9 @@ Currently, this repository has the following components.
 - [PickUp](docs/PickUp_component.md)
   - Select one or more pages of the site and view their thumbnails and summaries side by side
 - [Expand](docs/Expand_component.md)
-  - A component that can expand/store rich text
+  - Expand/store rich text
+- [LanguageSwitch](docs/LanguageSwitch_component.md)
+  - Displays a link to another language version of the page
 
 ## Installation (common to all components)
 
