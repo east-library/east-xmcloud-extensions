@@ -1,5 +1,5 @@
 import {
-  Image as JssImage,
+  NextImage as JssImage,
   ImageField,
   Link as JssLink,
   LinkField,

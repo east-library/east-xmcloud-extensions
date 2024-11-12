@@ -23,6 +23,7 @@ On the right is the version of JSS that was tested with those components.
 | Components Version | JSS Version |
 | ------------------ | ----------- |
 | 1.0.0 - 1.2.0      | 22.0.0      |
+| 2.0.0              | 22.1.3      |
 
 ## Components Overview
 
